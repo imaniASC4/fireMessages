@@ -10,9 +10,19 @@
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
-
-
-
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDMPDcbUZRXiuHn3i8jPb-RkHmM7GWud-o",
+    authDomain: "imanischat.firebaseapp.com",
+    databaseURL: "https://imanischat.firebaseio.com",
+    projectId: "imanischat",
+    storageBucket: "",
+    messagingSenderId: "970365009581"
+  };
+  firebase.initializeApp(config);
+</script>
 
     <!--jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -28,7 +38,7 @@
 <body>
 
     <!--Add your name-->
-    <h1>Bob's Messaging App</h1>
+    <h1>Imani's Messaging App</h1>
 
     <!--Will be populated with messages-->
     <div class="allMessages">
@@ -51,5 +61,6 @@
             </div>
         </form>
     </div>
+
 </body>
 </html>
